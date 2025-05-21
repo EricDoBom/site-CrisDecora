@@ -152,4 +152,39 @@ img:hover{
     width: 30px;
     height: 30px;
 }
+.quem-somos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 20px;
+    background-color: #fff0f5;
+}
 
+.quem-somos .texto {
+    max-width: 500px;
+}
+
+.quem-somos h2 {
+    color: #B3093F;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.quem-somos p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.quem-somos .imagem img {
+    max-width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.quem-somos .imagem img:hover {
+    transform: scale(1.05);
+}
